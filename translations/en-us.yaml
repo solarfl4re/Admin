@@ -19,3 +19,45 @@ editor:
         New: New
         Draft: Draft
         Saved: "- Saved"
+    post-preview:
+        Back: Back
+        Close: Close
+    post-settings:
+        settings: settings
+        View: View
+        Preview: Preview
+        Publish date: Publish date
+        Scheduled date: Scheduled date
+        Use the publish menu to re-schedule: Use the publish menu to re-schedule
+        Tags: Tags
+        Access to: Access to
+        Post access: Post access
+        Excerpt: Excerpt
+        Authors: Authors
+        Meta data: Meta data
+        Extra content for search engines: Extra content for search engines
+        Customize structured data for Twitter: Customize structured data for Twitter
+        Customize Open Graph data: Customize Open Graph data
+        Email newsletter: Email newsletter
+        Customize email settings: Customize email settings
+        "Add styles/scripts to the header &amp; footer": "Add styles/scripts to the header &amp; footer"
+        Feature this: Feature this
+        Delete: Delete
+        Back: Back
+        Meta title: Meta title
+        RecommendedCharacters: "Recommended: <b>{numCharacters}</b> characters. You’ve used"
+        Meta description: Meta description
+        Canonical URL: Canonical URL
+        Search Engine Result Preview: Search Engine Result Preview
+        Twitter card: Twitter card
+        Add Twitter image: Add Twitter image
+        Twitter title: Twitter title
+        Twitter description: Twitter description
+        Twitter preview: Twitter preview
+        Facebook card: Facebook card
+        Facebook title: Facebook title
+        Facebook description: Facebook description
+        Facebook preview: Facebook preview
+        Code injection: Code injection
+        Header: Header
+        Footer: Footer
