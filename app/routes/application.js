@@ -36,6 +36,7 @@ export default Route.extend(ShortcutsRoute, {
     settings: service(),
     ui: service(),
     whatsNew: service(),
+    intl: service(),
 
     shortcuts,
 
@@ -52,6 +53,7 @@ export default Route.extend(ShortcutsRoute, {
     },
 
     beforeModel() {
+        this.intl.setLocale(['uk']);
         return this.prepareApp();
     },
 
