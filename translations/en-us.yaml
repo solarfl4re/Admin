@@ -1,0 +1,21 @@
+price_banner: The {product} costs {price, number, ::currency/USD}
+settings:
+    general: General
+posts:
+    title: Posts
+editor:
+    preview: Preview
+    save: Save
+    saving: Saving
+    begin writing your: "Begin writing your "
+    Add feature image: Add feature image
+    Drop to upload feature image: Drop to upload feature image
+    post-status:
+        Saving: Saving...
+        Published: Published
+        and sending to: and sending to
+        and sent to: and sent to
+        Will be published: Will be published
+        New: New
+        Draft: Draft
+        Saved: "- Saved"

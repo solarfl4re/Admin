@@ -1,0 +1,20 @@
+settings:
+    general: Загальні
+posts:
+    title: Пости
+editor:
+    preview: Попередній перегляд
+    save: Зберегти
+    saving: Збереження
+    begin writing your: "Почніть писати Ваш "
+    Add feature image: Add feature image
+    Drop to upload feature image: Drop to upload feature image
+    post-status:
+        Saving: Сбереження...
+        Published: Опубліковано
+        and sending to: і відправляємо
+        and sent to: і відправлено
+        Will be published: Буде опубліковано
+        New: Новий
+        Draft: Чернетка
+        Saved: "- Збережено"

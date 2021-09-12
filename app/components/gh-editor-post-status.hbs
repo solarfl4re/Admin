@@ -1,25 +1,26 @@
 <div data-test-editor-post-status ...attributes>
     {{#if this.isSaving}}
-        Saving...
+        {{t "editor.post-status.Saving"}}
     {{else if (or @post.isPublished @post.pastScheduledTime)}}
-        Published
+        {{t "editor.post-status.Published"}}
         {{#if (or (eq @post.email.status "submitting") (eq @post.email.status "submitting"))}}
-            and sending to {{gh-pluralize @post.email.emailCount "member"}}
+            {{t "editor.post-status.and sending to"}} {{gh-pluralize @post.email.emailCount "member"}}
         {{else if (eq @post.email.status "submitted")}}
-            and sent to {{gh-pluralize @post.email.emailCount "member"}}
+            {{t "editor.post-status.and sent to"}} {{gh-pluralize @post.email.emailCount "member"}}
         {{/if}}
     {{else if @post.isScheduled}}
         <time datetime="{{@post.publishedAtUTC}}" class="ml1 green f8" data-test-schedule-countdown>
-            Will be published
+            {{t "editor.post-status.Will be published"}}
             {{#if @post.emailRecipientFilter}}
-                and sent to <GhRecipientFilterCount @filter={{@post.emailRecipientFilter}} />
+                {{t "editor.post-status.and sent to"}} <GhRecipientFilterCount @filter={{@post.emailRecipientFilter}} />
             {{/if}}
             {{this.scheduledTime}}
         </time>
     {{else if @post.isNew}}
-        New
+        {{t "editor.post-status.New"}}
     {{else}}
-        Draft
-        {{if (not @hasDirtyAttributes) "- Saved"}}
+        {{t "editor.post-status.Draft"}}
+        {{if not @hasDirtyAttributes}}
+        {{t 'editor.post-status.Saved'}}
     {{/if}}
 </div>
