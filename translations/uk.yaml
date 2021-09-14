@@ -7,10 +7,10 @@ editor:
     save: Зберегти
     saving: Збереження
     begin writing your: "Почніть писати Ваш "
-    Add feature image: Add feature image
+    Add feature image: Додати обране зображення
     Drop to upload feature image: Drop to upload feature image
     post-status:
-        Saving: Сбереження...
+        Saving: Збереження...
         Published: Опубліковано
         and sending to: і відправляємо
         and sent to: і відправлено
@@ -18,3 +18,103 @@ editor:
         New: Новий
         Draft: Чернетка
         Saved: "- Збережено"
+    post-preview:
+        Back: Назад
+        Close: Закрити
+        Share preview privately: Приватно ділитися попереднім переглядом
+        Copied: Скопіювано!
+        copy: скопіювати
+        Open in new tab: Відкрити у новій кладці
+    post-settings:
+        settings: налаштування
+        View: Дивитися
+        Preview: Попередній перегляд
+        Publish date: Дата публікації
+        Scheduled date: Запланована дата
+        Use the publish menu to re-schedule: Скористайтеся меню "Опублікувати", щоб знову запланувати
+        Tags: Теги
+        Access to: Доступ до
+        Post access: Доступ до посту
+        Excerpt: Уривок
+        Authors: Автори
+        Meta data: Метадані
+        Extra content for search engines: Додатковий контент для пошукових систем
+        Customize structured data for Twitter: Налаштувати структуровані дані для Twitter
+        Customize Open Graph data: Налаштувати дані Open Graph
+        Email newsletter: Поштова розсилка
+        Customize email settings: Налаштувати параметри email
+        "Add styles/scripts to the header &amp; footer": "Додати стилі або скрипти до шапки й підвалу"
+        Feature this: Зробити обраним
+        Delete: Видалити
+        Back: Назад
+        Meta title: Мета-назва
+        RecommendedCharacters: "Рекомендуємо: <b>{numCharacters}</b> знаків. У вас"
+        Meta description: Мета-опис
+        Canonical URL: Канонічний адрес
+        Search Engine Result Preview: Зразок результату у пошуковій системі
+        Twitter card: Картка Twitter
+        Add Twitter image: Додати зображення для Twitter
+        Twitter title: Назва для Twitter
+        Twitter description: Опис для Twitter
+        Twitter preview: Попередній перегляд для Twitter
+        Facebook card: Картка Facebook
+        Facebook title: Назва для Facebook
+        Facebook description: Опис для Facebook
+        Facebook preview: Попередній перегляд для Facebook
+        Code injection: Вставлення коду
+        Header: Шапка
+        Footer: Підвал
+dashboard:
+    Dashboard: Інформаційна панель
+    Select your publication style: Оберіть стиль для сайту
+    Customize your brand: Налаштувати свій бренд і під'єднатися до Stripe, щоб ваш сайт для підписників був готовим показати світові.
+    Start setup guide: Вказівки для налаштування сайту
+    Dismiss: Скасувати
+    MRR: MRR
+    Loading: "Завантаження..."
+    There was an error loading: Помилка при завантаженні {error, select,
+        MRR {постійної щомісячної виручки (MRR)}
+        totalMembers {кількості підписників}
+        paidMembers {платних підписників}
+        newsletterOpenRates {рівня перегляду розсилок}
+        memberEvents {подій підписників}
+        events {подій}
+        other {іншого}
+        }
+    Total members: Кількість підписників
+    Paid members: Платні підписники
+    Email open rate: Рівень перегляду email
+    Start creating content: Почніть створювати контент
+    Create your first member: Створіть перший підписник
+    Add yourself or import members from CSV: Додайте себе або імпортуйте підписників з CSV
+    Publish a post: Опублікувати пост
+    Get familiar with the Ghost editor and start creating: Get familiar with the Ghost editor and start creating
+    Customize your site design: Customize your site design
+    Stand out from the crowd. Ghost lets you customize everything so you can create a publication that doesn’t just look the same as what everyone else has.: Stand out from the crowd. Ghost lets you customize everything so you can create a publication that doesn’t just look the same as what everyone else has.
+    Brand: Brand
+    Email: Email
+    Theme: Theme
+    Looking for help with Ghost features?: Looking for help with Ghost features?
+    Our product knowledgebase is packed full of guides: Our product knowledgebase is packed full of guides, tutorials, answers to frequently asked questions, tips for dealing with common errors, and much more.
+    Visit the help center: "Visit the help center &rarr;"
+    6 types of newsletters you can start today: 6 types of newsletters you can start today
+    Choosing one of these newsletter types: Choosing one of these newsletter types for your publication will help you create better content at a faster pace with less work.
+    Get some inspiration: "Get some inspiration &rarr;"
+    5 MIN READ: 5 MIN READ
+    We're hiring! Join the team that makes Ghost.: We're hiring! Join the team that makes Ghost.
+    The creator economy is growing faster than ever: The creator economy is growing faster than ever, and so are we! 📈 Join a team that's determined to make decentralised, open technology the heart and soul of new media 🌺
+    See open roles: "See open roles &rarr;"
+    How to grow your audience, starting from 0: How to grow your audience, starting from 0
+    Starting from zero is hard: Starting from zero is hard. Thankfully, successful creators have given us clues on how to grow an audience by using something called a content funnel.
+    Here's how it works: "Here's how it works &rarr;"
+    9 MIN READ: 9 MIN READ
+    Join the Ghost creator community: Join the Ghost creator community.
+    Meet other people: "Meet other people building both free &amp; paid publications with Ghost. Talk strategy, get advice, or just hang out."
+    Share the journey: Share the journey
+    Top members: Top members
+    Open rate: Open rate
+    Member since: Member since
+    See all members: See all members
+    Activity feed: Activity feed
+    What's new?: What's new?
+    See more: "See more &rarr;"
