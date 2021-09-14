@@ -68,17 +68,22 @@ editor:
 dashboard:
     Dashboard: Dashboard
     Select your publication style: Select your publication style
-    Customize your brand and connect to Stripe to get your membership site ready to be shown to the world.: Customize your brand and connect to Stripe to get your membership site ready to be shown to the world.
+    Customize your brand: Customize your brand and connect to Stripe to get your membership site ready to be shown to the world.
     Start setup guide: Start setup guide
     Dismiss: Dismiss
     MRR: MRR
-    Loading...: Loading...
-    There was an error loading MRR: There was an error loading MRR
-    There was an error loading total members: There was an error loading total members
+    Loading: "Loading..."
+    There was an error loading: There was an error loading {error, select,
+        MRR {MRR}
+        totalMembers {total members}
+        paidMembers {paid members}
+        newsletterOpenRates {newsletter open rates}
+        memberEvents {member events}
+        events {events}
+        other {other}
+        }
     Total members: Total members
-    There was an error loading paid members: There was an error loading paid members
     Paid members: Paid members
-    There was an error loading newsletter open rates: There was an error loading newsletter open rates
     Email open rate: Email open rate
     Start creating content: Start creating content
     Create your first member: Create your first member
@@ -110,9 +115,7 @@ dashboard:
     Top members: Top members
     Open rate: Open rate
     Member since: Member since
-    There was an error loading member events.: There was an error loading member events.
     See all members: See all members
     Activity feed: Activity feed
-    There was an error loading events: There was an error loading events
     What's new?: What's new?
-    "See more &rarr;": "See more &rarr;"
+    See more: "See more &rarr;"

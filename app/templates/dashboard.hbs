@@ -11,7 +11,7 @@
             <section class="gh-dashboard-area lw-banner">
                 <div class="gh-lw-banner" style="background-image:url(assets/img/launch-wizard-bg.png);">
                     <h1>{{t "dashboard.Select your publication style"}}</h1>
-                    <p>{{t "dashboard.Customize your brand and connect to Stripe to get your membership site ready to be shown to the world."}}</p>
+                    <p>{{t "dashboard.Customize your brand"}}</p>
                     <LinkTo class="gh-btn gh-btn-green" @route="launch"><span>{{t "dashboard.Start setup guide"}}</span></LinkTo>
                     <div class="gh-dashboard-dismiss">
                         <GhDropdownButton @dropdownName="launch-wizard-dismiss"
@@ -35,11 +35,11 @@
                     </div>
                     <div class="gh-dashboard-chart-container">
                         {{#if this.mrrStatsLoading}}
-                            {{t "dashboard.Loading..."}}
+                            {{t "dashboard.Loading"}}
                         {{else}}
                             {{#if this.mrrStatsError}}
                                 <p class="error">
-                                    {{t "dashboard.There was an error loading MRR"}}
+                                    {{t "dashboard.There was an error loading" error=MRR}}
                                     <code>{{this.mrrStatsError.message}}</code>
                                 </p>
                             {{else}}
@@ -59,11 +59,11 @@
                 <div class="gh-dashboard-box total-members">
                     <div class="gh-dashboard-chart-container">
                         {{#if this.memberCountStatsLoading}}
-                            Loading...
+                            {{t "dashboard.Loading"}}
                         {{else}}
                             {{#if this.memberCountStatsError}}
                                 <p class="error">
-                                    {{t "dashboard.There was an error loading total members"}}
+                                    {{t "dashboard.There was an error loading" error=totalMembers}}
                                     <code>{{this.memberCountStatsData.message}}</code>
                                 </p>
                             {{else}}
@@ -84,11 +84,11 @@
                 <div class="gh-dashboard-box paid-members">
                     <div class="gh-dashboard-chart-container">
                         {{#if this.memberCountStatsLoading}}
-                            Loading...
+                            {{t "dashboard.Loading"}}
                         {{else}}
                             {{#if this.memberCountStatsError}}
                                 <p class="error">
-                                    {{t "dashboard.There was an error loading paid members"}}
+                                    {{t "dashboard.There was an error loading" error=paidMembers}}
                                     <code>{{this.memberCountStatsData.message}}</code>
                                 </p>
                             {{else}}
@@ -109,11 +109,11 @@
                 <div class="gh-dashboard-box newsletter-open-rate">
                     <div class="gh-dashboard-chart-container">
                         {{#if this.newsletterOpenRatesLoading}}
-                            Loading...
+                            {{t "dashboard.Loading"}}
                         {{else}}
                             {{#if this.newsletterOpenRatesError}}
                                 <p class="error">
-                                    {{t "dashboard.There was an error loading newsletter open rates"}}
+                                    {{t "dashboard.There was an error loading" error=newsletterOpenRates}}
                                     <code>{{this.memberCountStatsData.message}}</code>
                                 </p>
                             {{else}}
@@ -244,11 +244,11 @@
                         </div>
                         <div class="gh-dashboard-list">
                             {{#if this.topMembersLoading}}
-                                Loading...
+                                {{t "dashboard.Loading"}}
                             {{else}}
                                 {{#if this.topMembersError}}
                                     <p class="tc">
-                                        {{t "dashboard.There was an error loading member events."}}
+                                        {{t "dashboard.There was an error loading" error=memberEvents}}
                                         <code class="hidden">{{this.events.error.message}}</code>
                                     </p>
                                 {{else}}
@@ -287,11 +287,11 @@
                         <h4 class="gh-dashboard-header">{{t "dashboard.Activity feed"}}</h4>
                         <div class="content">
                             {{#if this.eventsLoading}}
-                                Loading...
+                                {{t "dashboard.Loading"}}
                             {{else}}
                                 {{#if this.eventsError}}
                                     <p class="error">
-                                        {{t "dashboard.There was an error loading events"}}
+                                        {{t "dashboard.There was an error loading" error=events}}
                                         <code>{{this.eventsError.message}}</code>
                                     </p>
                                 {{else}}
@@ -321,7 +321,7 @@
                     {{/each}}
                 </div>
                 <div class="footer">
-                    <LinkTo @route="whatsnew" @query={{hash entry=null}} class="green">{{t "dashboard.See more &rarr;" htmlSafe=true }}</LinkTo>
+                    <LinkTo @route="whatsnew" @query={{hash entry=null}} class="green">{{t "dashboard.See more" htmlSafe=true }}</LinkTo>
                 </div>
             </div>
             {{/unless}}
