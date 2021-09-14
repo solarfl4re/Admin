@@ -33,15 +33,15 @@
                         {{#if this.post.isDraft}}
                             <div>
                                 <button type="button" class="gh-btn gh-editor-preview-trigger" {{on "click" (action "togglePostPreviewModal")}}>
-                                    <span>Preview</span>
+                                    <span>{{t "editor.preview"}}</span>
                                 </button>
                             </div>
                         {{/if}}
 
                         {{#if this.session.user.isContributor}}
-                            <GhTaskButton @buttonText="Save"
+                            <GhTaskButton @buttonText="{{t "editor.save"}}"
                                 @task={{this.save}}
-                                @runningText="Saving"
+                                @runningText="{{t "editor.saving"}}"
                                 @class="gh-btn gh-btn-blue gh-btn-icon contributor-save-button"
                                 data-test-contributor-save=true />
                         {{else}}
@@ -71,7 +71,7 @@
                 @onTitleChange={{action "updateTitleScratch"}}
                 @onTitleBlur={{action (perform this.saveTitleTask)}}
                 @body={{readonly this.post.scratch}}
-                @bodyPlaceholder={{concat "Begin writing your " this.post.displayName "..."}}
+                @bodyPlaceholder={{concat (t 'editor.begin writing your') this.post.displayName "..."}}
                 @onBodyChange={{action "updateScratch"}}
                 @headerOffset={{editor.headerHeight}}
                 @scrollContainerSelector=".gh-koenig-editor"
