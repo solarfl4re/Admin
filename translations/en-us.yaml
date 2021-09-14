@@ -22,6 +22,10 @@ editor:
     post-preview:
         Back: Back
         Close: Close
+        Share preview privately: Share preview privately
+        Copied: Copied!
+        copy: copy
+        Open in new tab: Open in new tab
     post-settings:
         settings: settings
         View: View
@@ -61,3 +65,54 @@ editor:
         Code injection: Code injection
         Header: Header
         Footer: Footer
+dashboard:
+    Dashboard: Dashboard
+    Select your publication style: Select your publication style
+    Customize your brand and connect to Stripe to get your membership site ready to be shown to the world.: Customize your brand and connect to Stripe to get your membership site ready to be shown to the world.
+    Start setup guide: Start setup guide
+    Dismiss: Dismiss
+    MRR: MRR
+    Loading...: Loading...
+    There was an error loading MRR: There was an error loading MRR
+    There was an error loading total members: There was an error loading total members
+    Total members: Total members
+    There was an error loading paid members: There was an error loading paid members
+    Paid members: Paid members
+    There was an error loading newsletter open rates: There was an error loading newsletter open rates
+    Email open rate: Email open rate
+    Start creating content: Start creating content
+    Create your first member: Create your first member
+    Add yourself or import members from CSV: Add yourself or import members from CSV
+    Publish a post: Publish a post
+    Get familiar with the Ghost editor and start creating: Get familiar with the Ghost editor and start creating
+    Customize your site design: Customize your site design
+    Stand out from the crowd. Ghost lets you customize everything so you can create a publication that doesn’t just look the same as what everyone else has.: Stand out from the crowd. Ghost lets you customize everything so you can create a publication that doesn’t just look the same as what everyone else has.
+    Brand: Brand
+    Email: Email
+    Theme: Theme
+    Looking for help with Ghost features?: Looking for help with Ghost features?
+    Our product knowledgebase is packed full of guides, tutorials, answers to frequently asked questions, tips for dealing with common errors, and much more. : Our product knowledgebase is packed full of guides, tutorials, answers to frequently asked questions, tips for dealing with common errors, and much more.
+    Visit the help center &rarr;: Visit the help center &rarr;
+    6 types of newsletters you can start today: 6 types of newsletters you can start today
+    Choosing one of these newsletter types for your publication will help you create better content at a faster pace with less work.: Choosing one of these newsletter types for your publication will help you create better content at a faster pace with less work.
+    Get some inspiration &rarr;: Get some inspiration &rarr;
+    5 MIN READ: 5 MIN READ
+    We're hiring! Join the team that makes Ghost.: We're hiring! Join the team that makes Ghost.
+    The creator economy is growing faster than ever, and so are we! 📈 Join a team that's determined to make decentralised, open technology the heart and soul of new media 🌺: The creator economy is growing faster than ever, and so are we! 📈 Join a team that's determined to make decentralised, open technology the heart and soul of new media 🌺
+    See open roles &rarr;: See open roles &rarr;
+    How to grow your audience, starting from 0: How to grow your audience, starting from 0
+    Starting from zero is hard. Thankfully, successful creators have given us clues on how to grow an audience by using something called a content funnel.: Starting from zero is hard. Thankfully, successful creators have given us clues on how to grow an audience by using something called a content funnel.
+    Here's how it works &rarr;: Here's how it works &rarr;
+    9 MIN READ: 9 MIN READ
+    Join the Ghost creator community.: Join the Ghost creator community.
+    Meet other people building both free &amp; paid publications with Ghost. Talk strategy, get advice, or just hang out.: Meet other people building both free &amp; paid publications with Ghost. Talk strategy, get advice, or just hang out.
+    Share the journey: Share the journey
+    Top members: Top members
+    Open rate: Open rate
+    Member since: Member since
+    There was an error loading member events.: There was an error loading member events.
+    See all members: See all members
+    Activity feed: Activity feed
+    There was an error loading events: There was an error loading events
+    What's new?: What's new?
+    See more &rarr;: See more &rarr;
